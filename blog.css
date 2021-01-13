@@ -52,10 +52,6 @@ header table {
 #navigation a:hover{
     border-bottom:2px solid rgb(39, 43, 46);
 }
-
-.blog-banner img {
-    height: 100vh;
-}
 .blog-banner {
   margin-bottom: 15px;
   background: url("images/banner.jpeg") no-repeat center center fixed;
