@@ -56,6 +56,8 @@ header table {
 #intro {
     padding-right: 10px;
     background-color: rgb(249, 240, 255);
+    height: 700px;
+    margin-bottom: 50px;
 }
 #intro tr td{
     width:50%;
