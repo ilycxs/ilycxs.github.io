@@ -54,7 +54,7 @@ header table {
 }
 
 .blog-banner {
-  padding-top: 60px;
+  padding-top: 20px;
   margin-bottom: 15px;
   height: 100vh;
   background: url("images/banner.jpeg") no-repeat center center fixed;
