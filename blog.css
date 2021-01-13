@@ -54,6 +54,7 @@ header table {
 }
 
 .blog-banner {
+  height: 100vh;
   margin-bottom: 15px;
   background: url("images/banner.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
