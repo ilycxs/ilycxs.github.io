@@ -319,6 +319,19 @@ header table {
     margin: 0 0 2rem 0;
   }
 }
+#notion {
+  font-family: 'Calistoga', sans-serif;
+  font-size: 14px;
+  background:rgb(123, 61, 255); 
+  border-radius:5px;
+  color:#FFF;
+  border:0px; 
+}
+#notion:hover {
+  background:#FFF; 
+  color:rgb(123, 61, 255); 
+  border:3px solid rgb(123, 61, 255); 
+}
 
 #contact {
     border-radius: 10px;

@@ -23,7 +23,7 @@
                     <a href="#about">about me</a>
                     <a href="#resume">resume</a>
                     <a href="#projects">projects</a>
-                    <a href="#blog">blog</a>
+                    <a href="blog.html">blog</a>
                     <a href="#contact">contact</a>
                 </td>
             </tr>
@@ -106,6 +106,9 @@
                 </td>
             </tr>
             <tr>
+              <td><br></td>
+            </tr>
+            <tr>
                 <td><h2 style="padding-right: 50px;">Experience</h2></td>
                 <td><div class="vertical-div"></div></td>
                 <td>
@@ -141,6 +144,9 @@
                 </td>
             </tr>
             <tr>
+              <td><br></td>
+            </tr>
+            <tr>
                 <td><h2 style="padding-right: 50px;">Skills</h2></td>
                 <td><div class="vertical-div"></div></td>
                 <td>
@@ -173,6 +179,9 @@
                 </td>
             </tr>
             <tr>
+              <td><br></td>
+            </tr>
+            <tr>
                 <td><h2 style="padding-right: 50px;">Activities</h2></td>
                 <td><div class="vertical-div"></div></td>
                 <td>
@@ -195,6 +204,9 @@
                       </tr>
                     </table>
                 </td>
+            </tr>
+            <tr>
+              <td><br></td>
             </tr>
             <tr>
                 <td><h2 style="padding-right: 50px;">Awards</h2></td>
@@ -228,7 +240,8 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p>A web and mobile app intended to be the main platform for communication and coordination between the AppJam+ Program administrators and instructors. Includes features like login, announcements, and user management.</p>
+                      <p>Team Lead for developing a web and mobile app intended for better communication and coordination between the Dreams for Schools (DFS) AppJam+ Program administrators and instructors. Using React, Node.js, Expo, and SQL, I worked with my team to develop functionalities like login, announcements, and user management. I also managed the sprint timeline and organized meetings with our sponsors.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -242,7 +255,8 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p>A web and mobile digital video store app with employee and customer user logins. Includes functionalities like updating the movies database and browsing, searching, and buying movies.</p>
+                      <p>Pair programmed a web and mobile digital video store app with employee and customer user logins using Java, Javascript, HTML/CSS, and SQL in our full stack, AWS EC2, and Tomcat to develop functionalities like updating the movies database and browsing, searching, and buying movies. In addition, we implemented XML parsing to expand the database, HTTPS and password encryption to ensure security, and a load balancer to scale.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -256,7 +270,7 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p>A personal side project I created that acts as my digital recipe box! </p>
+                      <p>A personal side project I created that acts as my digital recipe box. In addition to organizing recipes, the app also includes features like rating, tags, filtering/sorting, and sharing. </p>
                     </div>
                   </div>
                 </div>
@@ -270,7 +284,9 @@
                   </div>
                   <div class="back">
                     <div class="inner">
-                      <p>Templates curated by me to organize everything I need to all in one place.</p>
+                      <p>Not exactly a project, but below you can find Notion templates curated by me to organize everything I need all in one place.</p>
+                      <button id="notion" onclick=" window.open('https://www.notion.so/Copy-of-Home-83c28182c45c44bb9a629de0fbe9d2df','_blank')" type="button">
+                      My Templates</button>
                     </div>
                   </div>
                 </div>
@@ -283,13 +299,12 @@
         <h1>contact</h1>
         <table>
             <tr>
-                <td id="contact-form">
-                    <form>
-                        <input type="text" placeholder="name" required>
-                        <input type="email" placeholder="email" required><br>
-                        <input type="text" id="phone" name="phone" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" maxlength="10" placeholder="phone">
-                        <textarea placeholder="your message" required rows="5"></textarea><br>
-                        <button class="send-msg-button">send</button>
+                <td>
+                    <form action="https://getform.io/f/fd613f8a-1d39-49af-a95f-cd61e028752e" method="POST">
+                        <input name="name" type="text" placeholder="name" required>
+                        <input name="email" type="email" placeholder="email" required><br>
+                        <textarea name="message" placeholder="your message"></textarea><br>
+                        <button type="submit" class="send-msg-button">send</button>
                     </form> 
                 </td>
             </tr>
