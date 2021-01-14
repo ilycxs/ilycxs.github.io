@@ -52,10 +52,16 @@ header table {
 #navigation a:hover{
     border-bottom:2px solid rgb(39, 43, 46);
 }
+
 .blog-banner {
+  padding-top: 60px;
   margin-bottom: 15px;
+  height: 85vh;
   background: url("images/banner.jpeg") no-repeat center center fixed;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   text-align: center;
   color: white;
   font-size: 30px;
