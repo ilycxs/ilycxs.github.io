@@ -66,6 +66,22 @@ header table {
   color: white;
   font-size: 30px;
 }
+.coming-soon-bang {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.coming-soon-text {
+  font-family: 'Calistoga';
+  font-size: 14px;
+  color: rgb(227,157,157);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20px;
+  padding-right: 15px;
+}
 
 #footer {
     width:100%;
