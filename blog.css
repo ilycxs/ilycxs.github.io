@@ -35,6 +35,7 @@ header table {
     color:rgb(224, 176, 255);
     width:50%;
     padding: 0.5vh 2vw;
+    text-decoration: none;
 }
 #navigation {
     padding: 2vw;
